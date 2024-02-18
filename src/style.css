@@ -1,5 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+body.plasmo-floating-timer-show,
+body.plasmo-floating-timer-show * {
+  max-width: 100dvh;
+  max-height: 100dvh;
+}
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+#plasmo-floating-timer {
+  position: fixed;
+  z-index: 240;
+  top: 1rem;
+  left: 1rem;
+}
