@@ -1,3 +1,26 @@
+@font-face {
+  font-family: "GT-Walsheim-Regular-Trial";
+  src: url("assets/fonts/GT-Walsheim-Regular-Trial.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #9900ff;
+  --secondary: #b58d00;
+  --accent: #2526ff;
+  --neutral: #1f191a;
+  --default: #fff4ff;
+  --info: #00cfff;
+  --success: #40bf00;
+  --warning: #fa9200;
+  --error: #ee002d;
+}
+
 body.plasmo-floating-timer-show,
 body.plasmo-floating-timer-show * {
   max-width: 100dvh;
@@ -6,7 +29,7 @@ body.plasmo-floating-timer-show * {
 
 #plasmo-floating-timer {
   position: fixed;
-  z-index: 240;
-  top: 1rem;
-  left: 1rem;
+  z-index: 999999999999;
+  top: 0rem;
+  left: 0rem;
 }

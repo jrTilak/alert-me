@@ -1,0 +1,32 @@
+.container {
+  height: 4.6rem;
+  width: 4.6rem;
+  background-color: var(--default);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 0.25rem;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+.container * {
+  font-family: "GT-Walsheim-Regular-Trial", sans-serif;
+}
+
+.timer {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.dragging {
+  z-index: 100;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 1rem;
+  right: 50%;
+  transform: translateX(50%);
+}
